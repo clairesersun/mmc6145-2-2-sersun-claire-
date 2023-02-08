@@ -20,10 +20,10 @@ export default function App() {
   const cardTexts = [
     "Bunny 🐰",
     "Frog 🐸",
-    // "Panda 🐼",
-    // "Doggy 🐶",
-    // "Kitty 😺",
-    // "Duck 🦆",
+    "Panda 🐼",
+    "Doggy 🐶",
+    "Kitty 😺",
+    "Duck 🦆",
   ];
 
   function handleGameEnd() {
