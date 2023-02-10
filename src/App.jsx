@@ -29,7 +29,7 @@ export default function App() {
   function handleGameEnd() {
     timerStop();
     setPreviousTime(time);
-    if (time < bestTime) {
+    if (!bestTime || time < bestTime) {
       setBestTime(time);
     }
     timerReset();
